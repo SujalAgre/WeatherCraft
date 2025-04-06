@@ -1,12 +1,11 @@
-# React + Vite
+# WeatherCraft
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Minecraft-Themed Weather App Built with React.js
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/fbd3339f-7727-49ff-b48b-cc579f0d1f7f)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/bcf31507-51c4-4a22-8a39-5b1e771c882a)
 
-## Expanding the ESLint configuration
+![image](https://github.com/user-attachments/assets/1c7e841f-8cc7-4bd0-a030-784e3f53754a)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Video Credit: JINTUBE
