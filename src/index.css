@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'minecraft';
+    src: url('./assets/fonts/Minecraft-standard.woff2');
+}
+
+.main-container {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.search-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+}
+
+.input-box {
+    margin-right: 0.2vw;
+    height: 4vh;
+    width: 14vw;
+    border-radius: 0px;
+    border-width: 0.25vw;
+    background-color: #dbdbdb;
+    color: #3b3b3b;
+    font-family: 'minecraft', sans-serif;
+    outline: none;
+    justify-content: center;
+    font-size: 0.7vw;
+    padding-left: 0.2vw;
+    display: flex;
+}
+
+.input-button {
+    height: 4vh;
+    width: 4vw;
+    font-size: 0.65vw;
+    border-radius: 0px;
+    border-width: 0.25vw;
+    color: #3b3b3b;
+    /* padding-left: 0.1vw; */
+    font-family: 'minecraft', sans-serif;
+    font-weight: 300;
+    background-color: #dbdbdb;
+}
+
+.bg-video {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.weather-info {
+    width: 98vw;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'minecraft', sans-serif;
+    font-size: 6vw;
+    color: white;
+    flex-direction: column;
+    line-height: 1.5;
+    margin-top: 2vw;
+    text-shadow: 2px 0px 13px rgba(0,0,0,0.34);
+}
+
+.city-name {
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+.info-btn {
+    height: 4vh;
+    width: 2vw;
+    margin-top: 0.4vw;
+    margin-left: 0.4vw;
+    font-size: 0.7vw;
+    border-radius: 0px;
+    border-width: 0.25vw;
+    color: #3b3b3b;
+    font-family: 'minecraft', sans-serif;
+    font-weight: 300;
+    background-color: #dbdbdb;
+    position: absolute;
+}
+
+.jukebox-btn {
+    height: 4vh;
+    width: 6vw;
+    margin-top: 0.4vw;
+    font-size: 0.7vw;
+    right: 0.5vw;
+    border-radius: 0px;
+    border-width: 0.25vw;
+    color: #3b3b3b;
+    font-family: 'minecraft', sans-serif;
+    font-weight: 300;
+    background-color: #dbdbdb;
+    position: absolute;
+}
+
+.jukebox-btn-dark{
+    background-color: #7a7a7a;
+}
+
+.jukebox-music-name{
+    margin-top: 2.7vw;
+    font-size: 0.7vw;
+    right: 0.5vw;
+    color: #3b3b3b;
+    font-family: 'minecraft', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    display: none;
+}
+
+.info {
+    /* display: block; */
+    /* width: 23vw;
+    height: 8vh; */
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 0.4vw;
+    border-radius: 0px;
+    border-width: 0.3vw;
+    border-style: ridge;
+    border-color: black;
+    font-family: 'minecraft', sans-serif;
+    font-size: 0.7vw;
+    padding-left: 0.2vw;
+    background-color: #dbdbdb;
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.info p {
+    margin-right: 1vw;
+}
