@@ -121,6 +121,10 @@ function Output({ data }) {
                 }}>{feelsLike}</p>
             </div>
 
+            <a href="https://github.com/SujalAgre/WeatherCraft" className='link' target="_blank" onClick={()=>{
+                playSound();
+            }}>GitHub</a>
+
             <video className="bg-video" autoPlay muted loop playsInline>
                 <source src="https://ce974aiykb.ufs.sh/f/Qrlfab801UXfQc9jGf801UXfLGJgkc8vVyPp7olqDzdEF3ZB" type="video/mp4" />
                 Your browser does not support the video tag.

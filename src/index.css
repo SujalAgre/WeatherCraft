@@ -80,7 +80,7 @@ body::selection {
 
 .weather-info {
     width: 98vw;
-    height: 93vh;
+    height: 92vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,6 +193,18 @@ body::selection {
     margin-right: 1vw;
 }
 
+.link{
+    color: white;
+    font-family: 'minecraft', sans-serif;
+    font-size: 0.7vw;
+    margin-left: 0.5vw;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
 @media (max-width: 470px) {
     .temperature {
         font-size: 7.5vw;
@@ -246,4 +258,12 @@ body::selection {
         font-size: 2vw;
         border-width: 1vw;
     }
+    .weather-info{
+        height: 95vh;
+    }
+
+    .link{
+        font-size: 2vw;
+        margin-left: 2vw;
+    }  
 }
