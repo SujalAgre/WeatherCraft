@@ -8,6 +8,7 @@ A Minecraft-Themed Weather App Built with React.js
 
 Features:
 A highly advanced Web3 jukebox music player.
+
 ![image](https://github.com/user-attachments/assets/0607358d-36e8-49a4-8399-3ab82ec8cf64)
 
 Video Credit: JINTUBE
