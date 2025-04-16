@@ -49,8 +49,11 @@ const jukebox = [
     },
 ]
 
-const rand = Math.floor(Math.random() * jukebox.length);
-const randMusic = jukebox[rand];
+let randMusic;
+export function selectMusic(){
+    const rand = Math.floor(Math.random() * jukebox.length);
+    randMusic = jukebox[rand];
+}
 
 console.log(randMusic)
 

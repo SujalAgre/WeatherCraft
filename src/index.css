@@ -2,11 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 @font-face {
     font-family: 'minecraft';
     src: url('./assets/fonts/Minecraft-standard.woff2');
+}
+
+body {
+    background-color: black;
+}
+
+body::selection {
+    background: #b7ffbbd7;
+
 }
 
 .main-container {
@@ -16,7 +26,7 @@
     height: 100vh;
 }
 
-.search-box{
+.search-box {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -53,7 +63,6 @@
     border-radius: 0px;
     border-width: 0.25vw;
     color: #3b3b3b;
-    /* padding-left: 0.1vw; */
     font-family: 'minecraft', sans-serif;
     font-weight: 300;
     background-color: #dbdbdb;
@@ -81,7 +90,15 @@
     flex-direction: column;
     line-height: 1.5;
     margin-top: 2vw;
-    text-shadow: 2px 0px 13px rgba(0,0,0,0.34);
+    text-shadow: 2px 0px 13px rgba(0, 0, 0, 0.34);
+}
+
+.temperature {
+    cursor: pointer;
+}
+
+.feelslike {
+    cursor: pointer;
 }
 
 .city-name {
@@ -119,15 +136,34 @@
     position: absolute;
 }
 
-.jukebox-btn-dark{
+.jukebox-reset {
+    height: 4vh;
+    width: 2.5vw;
+    margin-top: 0.4vw;
+    font-size: 1vw;
+    right: 7vw;
+    border-radius: 0px;
+    border-width: 0.25vw;
+    color: #292929;
+    font-family: 'minecraft', sans-serif;
+    font-weight: 100;
+    background-color: #dbdbdb;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jukebox-btn-dark {
     background-color: #7a7a7a;
 }
 
-.jukebox-music-name{
+.jukebox-music-name {
     margin-top: 2.7vw;
     font-size: 0.7vw;
     right: 0.5vw;
     color: #3b3b3b;
+    text-shadow: 2px 0px 13px rgba(0, 0, 0, 0.34);
     font-family: 'minecraft', sans-serif;
     font-weight: 300;
     position: absolute;
@@ -135,9 +171,6 @@
 }
 
 .info {
-    /* display: block; */
-    /* width: 23vw;
-    height: 8vh; */
     position: absolute;
     margin-top: 3vw;
     margin-left: 0.4vw;
@@ -152,10 +185,65 @@
     display: none;
 }
 
-.visible{
+.visible {
     display: block;
 }
 
 .info p {
     margin-right: 1vw;
+}
+
+@media (max-width: 375px) {
+    .temperature {
+        font-size: 7.5vw;
+    }
+
+    .input-box {
+        margin-top: 4.9vw;
+        height: 4vh;
+        width: 35vw;
+        font-size: 2vw;
+        border-width: 1vw;
+        border-color: black;
+    }
+
+    .input-button {
+        margin-top: 4.9vw;
+        height: 4vh;
+        width: 15vw;
+        font-size: 2vw;
+        border-width: 1vw;
+        margin-left: 0.8vw;
+        margin-right: 5vw;
+    }
+
+    .jukebox-btn{
+        height: 4vh;
+        width: 17vw;
+        font-size: 2vw;
+        border-width: 1vw;
+        margin-top: 0.2vw;
+    }
+
+    .jukebox-reset{
+        height: 4vh;
+        width: 7vw;
+        margin-right: 12vw;
+        font-size: 2vw;
+        border-width: 1vw;
+        margin-top: 0.2vw;
+    }
+
+    .info-btn{
+        height: 4vh;
+        width: 7vw;
+        font-size: 2vw;
+        border-width: 1vw;
+    }
+
+    .info{
+        margin-top: 8vw;
+        font-size: 2vw;
+        border-width: 1vw;
+    }
 }
