@@ -193,7 +193,7 @@ body::selection {
     margin-right: 1vw;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 470px) {
     .temperature {
         font-size: 7.5vw;
     }
