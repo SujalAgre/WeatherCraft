@@ -46,5 +46,9 @@
   {
     "name": "Ward - Minecraft Music Disc - C418",
     "location": "../assets/music/minecraft-music/Ward.mp3"
+  },
+  {
+    "name": "Rose Train - Single Music Disc - Aszu",
+    "location": "../assets/music/minecraft-music/Rose Train.mp3"
   }
 ]
